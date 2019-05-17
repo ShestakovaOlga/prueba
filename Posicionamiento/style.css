@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+/*Ejercicio 9 1_5
+.body{
+    border:8px solid black;
+}
+.container{
+    margin:106px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.container span{
+    font-size: 18px;
+    margin-bottom:40px;
+}
+.container span:nth-child(2){
+    font-size: 32px;
+    margin-bottom:32px;
+}
+.container span p{
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+.container a{
+    padding:8px 16px;
+    margin-left:-16px;  
+}
+/*Ejercicio 8 1_5
+.container {
+    margin: 50px;
+    display: flex;
+    border-bottom:1px solid rgb(214, 212, 212);
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.nombre{
+font-size: 1.2rem;
+color:rgb(170, 167, 167);
+}
+
+.enlace{
+    border-radius: 5px;
+    background: red;
+    padding:3px 6px;
+    color:white;
+    
+}
+
+/*Ejercicio 7 1_5
+.main{
+    width: 86%;
+    max-width: 600px;
+    margin-left: 50%;
+    transform:translateX(-50%)
+}*/
+
+
+
+/*Ejercicio 6 1_5
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bar {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    background: rgb(107, 103, 103);
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    align-items: center;
+    background: rgb(236, 236, 236);
+
+}
+
+.main p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.footer {
+
+    height: 60px;
+    background: rgb(206, 202, 202);
+}
+
+.cookies {
+    
+    height: 100px;
+    position: fixed;
+    background: rgb(196, 167, 114);
+    left: 50%;
+    bottom:0px;
+    transform: translate(-50%,0);
+    align-items: center;
+}
+
+.cookies p1 {
+    font-size: 1.2rem;
+}
+
+*/
+
+
+/*ejercicio 5 1_5
+.uno {
+    width: 500px;
+    height: 500px;
+    background: yellow;
+    position: absolute;
+    padding: 40px;
+    border: 2px solid red;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%)
+}
+
+.dos {
+    width: 300px;
+    height: 300px;
+    background: green;
+    position: absolute;
+    padding: 75px;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%)
+}
+
+.tres {
+    width: 150px;
+    height: 150px;
+    background: blue;
+    position: absolute;
+    border-left: 20px dotted red;
+    box-sizing: border-box;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%)
+}

@@ -1,0 +1,168 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    background: rgb(223, 220, 220);   
+
+}
+
+
+.container{
+    display:flex;
+    flex-direction: column;
+    
+    width: 100vw;
+    background: rgb(223, 220, 220);   
+}
+.container2{
+    display:flex;
+    flex-direction: column;
+}
+.link{
+    height:90px;
+    background: green;
+   
+    margin-right: 15px;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    flex-grow:1;
+    background: yellow;
+}
+
+.select{
+    display:flex;
+    flex-direction: column;
+    height: 200px;
+    background: gray;
+}
+
+@media (min-width:480px) and (max-width:1000px){
+    .container {
+flex-direction: row;
+
+    }
+    .container2{
+        flex-direction: column;
+        width: 75vw;
+        height: 93%;
+        position: relative;
+        top:7%;
+        flex-grow: 1;  
+    }
+    .link{
+        
+        height:18vh;
+        width: 20vw;
+        padding: 2px;
+    }
+    .select{
+        
+    }
+    .select h4{
+        font-size: 1rem;
+        margin-top:none;
+    
+    }
+    .select p{
+        
+    }
+}
+
+@media (min-width:1000px){
+    
+    .container2{
+        flex-direction: row;  
+        
+    }
+    .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .link{
+        height:18vh;
+        width: 20vw;
+        padding: 2px;
+    }
+    .main{
+        margin-right:30px; 
+    }
+}
+/*Ejercicio 7 1_6
+.box {
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:20px 20px;
+    background: gray;
+}
+
+.box span h2{
+    font-size: 32px;
+}
+
+.box span p{
+    font-size: 18px;
+    line-height:24px; 
+}
+@media all and (max-width:480px){
+    .box{
+        background: red;
+    }
+}
+@media all and (min-width:480px), (max-width:768px){
+    .box{
+        background:yellow;
+    }
+}
+@media all and (min-width:768px){
+    .box{
+        background: green;
+    }
+}
+
+/*ejercicio 6 1_6
+.box {
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:20px 20px;
+}
+
+.box span h2{
+    font-size: 32px;
+}
+
+.box span p{
+    font-size: 18px;
+    line-height:24px; 
+}
+@media all and (min-width:768px){
+.box{
+    margin:30px 40px;
+}
+.box span h2{
+    font-size: 28px;
+}
+.box span p{
+    font-size: 16px;
+    line-height:20px; 
+}
+}
+@media all and (min-width:1140px){
+    .box{
+        margin:190px auto;
+        max-width: 750px;
+    }
+    .box span h2{
+        font-size: 42px;
+    }
+    .box span p{
+        font-size: 24px;
+        line-height:32px; 
+    }
+    }
